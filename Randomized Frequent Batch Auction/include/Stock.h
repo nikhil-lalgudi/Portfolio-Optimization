@@ -9,11 +9,8 @@ private:
     double price;
 
 public:
-    // Constructors
     Stock() : name(""), price(0.0) {}
     Stock(const std::string& name, double price);
-
-    // Setters & Getters
     void setName(const std::string& newName);
     void setPrice(double newPrice);
     std::string getName() const;
